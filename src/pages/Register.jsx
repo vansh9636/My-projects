@@ -27,7 +27,7 @@ const Register = () => {
         <div id='Login'>
             <div className='LoginPanal'>
                 <div className="leftlog">
-                    <img src="src/assets/download-removebg-preview.png" alt="logo" />
+                    <img src="assets/download-removebg-preview.png" alt="logo" />
                     <h1>Sign up</h1>
                     <p>with your Google Account. This account will be acailabe to other Google apps in the browser. </p>
                 </div>

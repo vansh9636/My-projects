@@ -32,7 +32,7 @@ const Home = () => {
             <h5 className='ot-devc' onClick={() => showSlider()}><i className="ri-menu-line"></i></h5>
             <h1>Gemini</h1></span>
           <h5 id='theme'><i className="ri-sun-line"></i></h5>
-          <img src="src/assets/profileImg.jpeg" alt="profileImg" />
+          <img src="assets/profileImg.jpeg" alt="profileImg" />
         </div>
         <div className="result-display">
           {!showResult ?
@@ -46,11 +46,11 @@ const Home = () => {
             </> :
             <div className='result'>
               <div className="currentInput">
-                <img src="src/assets/profileImg.jpeg" alt="user" />
+                <img src="assets/profileImg.jpeg" alt="user" />
                 <span>{currentInput}</span>
               </div>
               <div className="result-inner">
-                <img src="src/assets/download-removebg-preview.png" alt="" />
+                <img src="assets/download-removebg-preview.png" alt="" />
                 <div className="pera">
                   {showLoder ?
                     <div className='loader'>
